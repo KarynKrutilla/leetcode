@@ -1,5 +1,7 @@
 package com.leetcode.medium;
 
+import com.leetcode.common.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -26,18 +28,5 @@ public class FindBottomLeftTreeValue {
         }
         // If the queue is now empty, the last poll value is the bottom left value
         return root.val;
-    }
-}
-
-/**
- * Definition for a binary tree node.
- */
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
     }
 }
