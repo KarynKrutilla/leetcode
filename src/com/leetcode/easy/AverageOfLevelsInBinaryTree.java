@@ -1,5 +1,7 @@
 package com.leetcode.easy;
 
+import com.leetcode.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -40,18 +42,4 @@ public class AverageOfLevelsInBinaryTree {
         return averages;
     }
 
-}
-
-
-/**
- * Definition for a binary tree node.
- */
-class TreeNode {
-    int val;
-    TreeNode left;
-    TreeNode right;
-
-    TreeNode(int x) {
-        val = x;
-    }
 }
